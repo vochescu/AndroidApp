@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="ro.ase.eu.proiect.busWayBucharest.MapActivity"
+    android:id="@+id/map_relativeLayout">
+<RelativeLayout
+    android:layout_weight="0.05"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Switch
+        android:id="@+id/map_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/map_switch"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:textOn="@string/map_switchOn"
+        android:textOff="@string/map_switchOff"
+        />
+
+    <Button
+        android:id="@+id/map_btn_search_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_line_button"
+        android:width="200dp"
+        android:height="10dp"
+        android:onClick="goToSearchLine"
+        />
+    </RelativeLayout>
+    <LinearLayout
+    android:layout_weight="0.95"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/lv_line_item_relativeLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/lv_line_item_linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:id="@+id/lv_line_item_linearLayout_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lv_line_item_tv_freezed_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="@string/line_adapter_line"
+            />
+        <TextView
+            android:id="@+id/lv_line_item_tv_lineNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="16dp"
+            android:textColor="@android:color/holo_red_dark"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lv_line_item_linearLayout_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/lv_line_item_tv_freezed_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/line_adapter_startingPoint"
+            android:textStyle="italic"
+            android:drawableLeft="@drawable/point"
+            />
+        <TextView
+            android:id="@+id/lv_line_item_tv_startPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+        <TextView
+            android:id="@+id/lv_line_item_tv_freezed_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/line_adapter_endingPoint"
+            android:textStyle="italic"
+            android:drawableLeft="@drawable/point"
+            />
+        <TextView
+            android:id="@+id/lv_line_item_tv_endPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/lv_line_item_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:button="@android:drawable/btn_star"
+        android:checked="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+</RelativeLayout>

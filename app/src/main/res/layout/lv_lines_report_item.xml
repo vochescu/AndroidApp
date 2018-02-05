@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    >
+    <ImageView
+        android:id="@+id/lv_lines_report_item_BusImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bus"
+        android:layout_row="0"
+        android:layout_column="0"
+        />
+    <TextView
+        android:id="@+id/lv_lines_report_item_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/main_button_background"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_row="0"
+        android:layout_column="1"
+        />
+    <!-- Stiu ca nu este corect sa setez 80dp inaltimea GridView-ului, deoarece
+    in unele situatii se poate vedea distorsionat. Inca nu am gasit alta solutie
+    de a folosi "GridView in ListView"...
+    -->
+    <GridView
+        android:id="@+id/lv_lines_report_item_lv_stops"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:numColumns="2"
+        android:layout_row="1"
+        android:layout_columnSpan="2"
+        />
+</GridLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ro.ase.eu.proiect.busWayBucharest.TicketActivity"
+    android:id="@+id/ticket_relativeLayout"
+   >
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/ticket_type_group"
+        android:layout_marginTop="20dp"
+        >
+
+        <RadioButton
+            android:id="@+id/ticket_allDay_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ticket_oneWay" />
+
+        <RadioButton
+            android:id="@+id/ticket_E780_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ticket_E780" />
+        <RadioButton
+            android:id="@+id/ticket_E783_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ticket_E783" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/ticket_busNumber_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/ticket_busNumber_hint"
+        android:layout_below="@id/ticket_type_group"
+        android:layout_marginTop="20dp"
+        />
+
+    <CheckBox
+        android:id="@+id/ticket_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/feedback_terms_cond"
+        android:layout_below="@id/ticket_busNumber_editText"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/ticket_btn_buy"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:text="@string/ticket_buy_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="goToBuyTicket"
+        android:textColor="@color/white"
+        android:background="@color/main_button_background"
+        />
+
+
+
+</RelativeLayout>

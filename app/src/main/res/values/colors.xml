@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2ec0b2</color>
+    <color name="colorPrimaryDark">#026057</color>
+    <color name="colorAccent">#73f086</color>
+    <color name="main_button_background">#225a53</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000</color>
+    <color name="main_background">#419990</color>
+    <color name="chart_pink">#eea2a2</color>
+    <color name="chart_blue">#57c6e1</color>
+
+</resources>

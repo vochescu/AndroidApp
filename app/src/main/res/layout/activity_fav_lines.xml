@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ro.ase.eu.proiect.busWayBucharest.FavLinesActivity"
+    android:orientation="vertical"
+
+    android:id="@+id/fav_lines_linearLayout"
+    >
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fav_lines_fab_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/stat_sys_download"
+        android:onClick="goToReportFavLines"
+        app:backgroundTint="@color/main_button_background"
+        android:layout_marginTop="5dp"
+        app:fabSize="normal"/>
+    <TextView
+        android:id="@+id/fav_lines_tv_emptyList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/favlines_no_favLines"
+        android:textSize="15dp"
+        />
+    <ListView
+        android:id="@+id/fav_lines_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+
+</LinearLayout>

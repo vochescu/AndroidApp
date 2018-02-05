@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "898678720537",
+    "firebase_url": "https://buswaybucharest.firebaseio.com",
+    "project_id": "buswaybucharest",
+    "storage_bucket": "buswaybucharest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898678720537:android:dc3cea8c968dab93",
+        "android_client_info": {
+          "package_name": "ro.ase.eu.proiect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898678720537-7tmcn2dii393v1q4ilcq09kafpm3bn0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx2S4IAfQfW5hhLRitWeD-VErwU6-2Rnc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

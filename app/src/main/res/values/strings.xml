@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">BusWay Bucharest</string>
+    <string name="app_menu_about">About</string>
+    <string name="app_menu_home">Home</string>
+    <string name="app_menu_feedback">Feedback</string>
+
+    <string name="menu_done">DONE</string>
+    <string name="opened_item">Item opened</string>
+
+    <string name="home_bus">Bus</string>
+    <string name="home_favLines">Fav.Lines</string>
+    <string name="home_map">Map</string>
+    <string name="home_tickets">Tickets</string>
+    <string name="home_report">Report</string>
+    <string name="home_graphic">Graphic</string>
+
+    <string name="about_application_name">BusWay Bucharest Application</string>
+    <string name="about_year">Year: 2017</string>
+    <string name="about_copyRight">Copy Right: Vochescu Ancuta</string>
+    <string name="about_feedback_button">Feedback</string>
+    <string name="about_text">BusWay Bucharest is an application that would help you navigate the capital city of Bucharest, Romania, using a busway system (RATB).</string>
+
+    <string name="feedback_hint_name">Name</string>
+    <string name="feedback_hint_email">E-mail</string>
+    <string name="feedback_hint_phone">Phone</string>
+    <string name="feedback_hint_feedbackText">Your message</string>
+    <string name="feedback_terms_cond">Accept Terms and Conditions</string>
+    <string name="feedback_button_sendText">Send</string>
+    <string name="feedback_textView">When it happened?</string>
+    <string name="feedback_seekBar_text">Score this application: </string>
+    <string name="feedback_name_error">Invalid name</string>
+    <string name="feedback_phone_error">Invalid phone</string>
+    <string name="feedback_email_error">Invalid email</string>
+    <string name="feedback_seekbar_error">Invalid score</string>
+    <string name="feedback_message_error">Message too short</string>
+    <string name="feedback_imageFromGallery_btn">Image from Gallery</string>
+    <string name="feedback_imageFromURL_btn">Image from URL</string>
+    <string name="feedback_imageFromURL_et">URL</string>
+    <string name="feedback_imageFromURL_error">Invalid URL</string>
+    <string name="feedback_email_provider">Email provider</string>
+
+    <string name="map_switch">Change to Satellite: </string>
+    <string name="map_switchOn">Satellite</string>
+    <string name="map_switchOff">Street</string>
+
+    <string name="bus_prompt">Choose a bus:</string>
+    <string name="bus_export_btn">Export data</string>
+    <string name="bus_externDB_cb">Extern Database</string>
+    <string name="bus_context_menu_edit">Edit</string>
+    <string name="bus_context_menu_delete">Delete</string>
+    <string name="bus_lines_exported_message">All lines are exported</string>
+    <string name="export_error">Something went wrong</string>
+    <string name="todo">TODO</string>
+
+    <string name="ticket_oneWay">One way - city lines</string>
+    <string name="ticket_E780">One way - E780</string>
+    <string name="ticket_E783">One way - E783</string>
+    <string name="ticket_phone_hint">Your phone number</string>
+    <string name="ticket_busNumber_hint">Bus number</string>
+    <string name="ticket_buy_button">Buy now</string>
+    <string name="ticket_buy_error">All fields are mandatory</string>
+
+    <string name="add_line_startPoint_hint">Starting point</string>
+    <string name="add_line_endPoint_hint">Ending point</string>
+    <string name="add_line_add_btn">Save</string>
+    <string name="add_line_delete_btn">Delete</string>
+    <string name="add_line_deleted_line_message">You just deleted the line</string>
+    <string name="add_line_numberError">Bus number is mandatory</string>
+    <string name="add_line_startingPointError">Invalid starting point</string>
+    <string name="add_line_endingPointError">Invalid ending point</string>
+
+    <string name="line_adapter_line">Line:</string>
+    <string name="line_adapter_startingPoint">Starting point:</string>
+    <string name="line_adapter_endingPoint">Ending point:</string>
+    <string name="search_line_button">Search Line</string>
+
+    <string name="stop_name">Name</string>
+    <string name="stop_latitude">Latitude:</string>
+    <string name="stop_longitude">Longitude:</string>
+    <string name="stop_nameError">Invalid Stop name</string>
+    <string name="stop_latError">Invalid latitude</string>
+    <string name="stop_longError">Invalid longitude</string>
+
+    <string name="empty_message">Is empty</string>
+    <string name="json_added_into_database">true</string>
+    <string name="csv_exported_message">Your CSV file was created</string>
+    <string name="csv_exported_error">Something went wrong</string>
+
+    <string name="favlines_no_favLines">There are no bus lines saved as favorite! Go to Bus screen to add a bus line to favorites</string>
+    <string name="title_activity_map">Map</string>
+</resources>

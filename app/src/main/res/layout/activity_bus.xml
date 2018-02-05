@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ro.ase.eu.proiect.busWayBucharest.BusActivity"
+    android:id="@+id/bus_relativeLayout"
+    >
+
+    <Button
+        android:id="@+id/bus_export_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/bus_export_btn"
+        android:layout_margin="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/main_button_background"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        />
+
+    <CheckBox
+        android:id="@+id/bus_externDB_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bus_externDB_cb"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="italic"
+        />
+
+    <ListView
+        android:id="@+id/lv_bus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bus_externDB_cb"
+        android:choiceMode="singleChoice"
+        android:divider="@color/colorPrimary"
+        android:dividerHeight="4px"
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/bus_floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        app:backgroundTint="@color/main_button_background"
+        app:srcCompat="@android:drawable/ic_input_add"
+        app:fabSize="normal"
+        />
+
+</RelativeLayout>

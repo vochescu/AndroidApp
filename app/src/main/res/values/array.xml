@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bus_array_lines_or_stops">
+        <item>Lines</item>
+        <item>Stops</item>
+    </string-array>
+</resources>

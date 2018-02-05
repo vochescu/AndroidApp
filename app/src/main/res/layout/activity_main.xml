@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    tools:context="ro.ase.eu.proiect.busWayBucharest.MainActivity"
+    android:background="@color/main_background"
+    >
+
+    <GridLayout
+        android:id="@+id/main_buttons_gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:rowCount="5"
+        >
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo"
+            android:layout_columnSpan="2"
+            android:layout_row="0"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center"
+            android:text="@string/about_application_name"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_columnSpan="2"
+            android:layout_row="0"
+            />
+        <Button
+            android:id="@+id/button_bus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/main_button_background"
+            android:textColor="@color/white"
+            android:layout_margin="2dp"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:onClick="goToBusActivity"
+            android:text="@string/home_bus" />
+
+        <Button
+            android:id="@+id/button_favLines"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/main_button_background"
+            android:layout_margin="2dp"
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:onClick="goToFavLinesActivity"
+            android:text="@string/home_favLines" />
+
+
+        <Button
+            android:id="@+id/button_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="@color/main_button_background"
+            android:textColor="@color/white"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:onClick="goToMapActivity"
+            android:text="@string/home_map" />
+
+        <Button
+            android:id="@+id/button_tickets"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="@color/main_button_background"
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:onClick="goToTicketsActivity"
+            android:text="@string/home_tickets" />
+        <Button
+            android:id="@+id/button_report"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="@color/main_button_background"
+            android:textColor="@color/white"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:onClick="goToReportActivity"
+            android:text="@string/home_report" />
+        <Button
+            android:id="@+id/button_graphic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="@color/main_button_background"
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:text="@string/home_graphic"
+            android:onClick="goToGraphicActivity"
+            />
+    </GridLayout>
+
+</LinearLayout>
